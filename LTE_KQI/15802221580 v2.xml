@@ -9,7 +9,7 @@
   <Author>李健</Author>
   <LastAuthor>高宏</LastAuthor>
   <Created>2011-12-07T03:08:55Z</Created>
-  <LastSaved>2015-07-28T02:28:27Z</LastSaved>
+  <LastSaved>2016-12-25T12:28:30Z</LastSaved>
   <Company>ABCD</Company>
   <Version>15.00</Version>
  </DocumentProperties>
@@ -17,8 +17,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9255</WindowHeight>
-  <WindowWidth>20490</WindowWidth>
+  <WindowHeight>6135</WindowHeight>
+  <WindowWidth>15345</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>491</TabRatio>
@@ -60,7 +60,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m129001840">
+  <Style ss:ID="m130656176">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -190,15 +190,15 @@
    <Font ss:FontName="宋体" x:CharSet="134"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s87" ss:Parent="s63">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
-   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#FF0000"/>
    <Interior/>
   </Style>
   <Style ss:ID="s88" ss:Parent="s63">
@@ -209,10 +209,21 @@
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s89" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
    <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s89">
+  <Style ss:ID="s90">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -222,7 +233,7 @@
    </Borders>
    <Font ss:FontName="宋体" x:CharSet="134"/>
   </Style>
-  <Style ss:ID="s90" ss:Parent="s63">
+  <Style ss:ID="s91" ss:Parent="s63">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -233,24 +244,13 @@
    <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s91">
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-  </Style>
   <Style ss:ID="s92">
-   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
-   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
-   <Interior/>
   </Style>
   <Style ss:ID="s93">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
@@ -261,8 +261,19 @@
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+   <Interior/>
   </Style>
   <Style ss:ID="s94">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s95">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -273,37 +284,37 @@
    <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
     ss:Color="#000000"/>
   </Style>
-  <Style ss:ID="s96" ss:Parent="s64">
+  <Style ss:ID="s97" ss:Parent="s64">
    <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
    <Borders/>
    <Font ss:FontName="宋体" x:CharSet="134"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s97" ss:Parent="s64">
+  <Style ss:ID="s98" ss:Parent="s64">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders/>
    <Font ss:FontName="宋体" x:CharSet="134"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s98">
+  <Style ss:ID="s99">
    <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders/>
    <Font ss:FontName="宋体" x:CharSet="134"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s99">
+  <Style ss:ID="s100">
    <Alignment ss:Vertical="Center" ss:WrapText="1"/>
    <Font ss:FontName="宋体" x:CharSet="134"/>
   </Style>
-  <Style ss:ID="s100">
+  <Style ss:ID="s101">
    <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
    <Font ss:FontName="宋体" x:CharSet="134"/>
   </Style>
-  <Style ss:ID="s101">
+  <Style ss:ID="s102">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
   </Style>
-  <Style ss:ID="s102">
+  <Style ss:ID="s103">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -314,7 +325,7 @@
    <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
    <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s103">
+  <Style ss:ID="s104">
    <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -324,7 +335,7 @@
    </Borders>
    <Font ss:FontName="宋体" x:CharSet="134"/>
   </Style>
-  <Style ss:ID="s104">
+  <Style ss:ID="s105">
    <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -333,17 +344,6 @@
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Font ss:FontName="宋体" x:CharSet="134"/>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s105">
-   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#FF0000"/>
    <Interior/>
   </Style>
  </Styles>
@@ -366,7 +366,7 @@
     <Cell ss:StyleID="s70"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="372">
-    <Cell ss:MergeDown="6" ss:StyleID="m129001840"><Data ss:Type="String">v2.0</Data></Cell>
+    <Cell ss:MergeDown="6" ss:StyleID="m130656176"><Data ss:Type="String">v2.0</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="DateTime">2015-01-01T00:00:00.000</Data></Cell>
     <Cell ss:StyleID="s68"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">根据统一DPI最新规范修订原有指标算法，并新增部分VoLTE相关指标算法:&#10;1、由于统一DPI规范修订，更新以下“测量项”sheet中的“算法”列： Combined EPS附着请求次数、Combined EPS附着成功次数、联合跟踪区更新请求次数、联合跟踪区更新成功次数、MME内S1接口每相邻关系切出尝试次数、MME内S1接口切出成功次数、MME内S1接口切入尝试次数、MME内S1接口切入成功次数、切换入E-RAB数、eNB请求释放上下文数、正常的eNB请求释放上下文数、初始上下文建立成功次数、遗留上下文个数、专用承载激活请求次数、专用承载激活成功次数；&#10;2、更新“测量项”sheet中“</Font><Font
@@ -488,7 +488,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">MM.AttEpsAttach</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">EPS附着请求次数V2</Data><NamedCell
+    <Cell ss:StyleID="s86"><Data ss:Type="String">EPS附着请求次数V2 15802221580</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -940,13 +940,13 @@
    <Row ss:AutoFitHeight="0" ss:Height="24">
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHG01</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHG01</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">寻呼</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">PAG.PagReceived</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PAG.PagReceived</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">寻呼记录接收个数</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">寻呼记录接收个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -956,7 +956,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB收到的寻呼消息个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB从MME成功收到的“寻呼”消息(PAGING),且TAI List含有本小区的TA（3GPP TS 36.413）。</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">eNB从MME成功收到的“寻呼”消息(PAGING),且TAI List含有本小区的TA（3GPP TS 36.413）。</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -969,13 +969,13 @@
    <Row ss:AutoFitHeight="0" ss:Height="96">
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME，X2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHB12</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHB12</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">S1切换，X2切换</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ERAB.HoFail</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ERAB.HoFail</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">切出失败的E-RAB数</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">切出失败的E-RAB数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -985,7 +985,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计切出失败的E-RAB个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">（1）对于基于S1接口的切换，统计MME发给eNB的Handover Command消息中包括的E-RABs to Release List IE 中的E-RAB个数。（3GPP TS 36.413）&#10;（2）对于基于X2接口的切换，target eNB发给Source eNB的Handover Request ACK消息中的E-RABs Not Admitted List IE 中的E-RAB数（3GPP TS 36.423）&#10;注：在网络开启Multiple HO功能时，只统计被选中的目标小区对应的Handover Command和Handover Request ACK消息。</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">（1）对于基于S1接口的切换，统计MME发给eNB的Handover Command消息中包括的E-RABs to Release List IE 中的E-RAB个数。（3GPP TS 36.413）&#10;（2）对于基于X2接口的切换，target eNB发给Source eNB的Handover Request ACK消息中的E-RABs Not Admitted List IE 中的E-RAB数（3GPP TS 36.423）&#10;注：在网络开启Multiple HO功能时，只统计被选中的目标小区对应的Handover Command和Handover Request ACK消息。</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR，X2接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -998,13 +998,13 @@
    <Row ss:AutoFitHeight="0" ss:Height="48">
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHB05</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ENBHB05</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">初始上下文建立，E-RAB建立</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ERAB.NbrAttEstab</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ERAB.NbrAttEstab</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">E-RAB建立请求数</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">E-RAB建立请求数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1014,7 +1014,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计请求建立的E-RAB个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">eNB接收到MME发来的“初始上下文建立请求消息”（INITIAL CONTEXT SETUP REQUEST）或 “E-RAB建立请求”（E-RAB SETUP REQUEST）消息，消息中包含的E-RAB个数。每个业务类型对应一个子测量项。（3GPP TS 36.413）。</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB接收到MME发来的“初始上下文建立请求消息”（INITIAL CONTEXT SETUP REQUEST）或 “E-RAB建立请求”（E-RAB SETUP REQUEST）消息，消息中包含的E-RAB个数。每个业务类型对应一个子测量项。（3GPP TS 36.413）。</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1027,13 +1027,13 @@
    <Row ss:AutoFitHeight="0" ss:Height="48">
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHB06</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHB06</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">初始上下文建立，E-RAB建立</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ERAB.NbrSuccEstab</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ERAB.NbrSuccEstab</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">E-RAB建立成功数</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">E-RAB建立成功数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1043,7 +1043,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计成功建立的E-RAB个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">统计E-RAB建立成功个数。eNB向MME发送“初始上下文建立响应”（INITIAL CONTEXT SETUP RESPONSE）消息或“E-RAB建立响应”（E-RAB SETUP RESPONSE）消息中，成功建立的E-RAB个数。每个业务类型对应一个子测量项。（3GPP TS 36.413）</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">统计E-RAB建立成功个数。eNB向MME发送“初始上下文建立响应”（INITIAL CONTEXT SETUP RESPONSE）消息或“E-RAB建立响应”（E-RAB SETUP RESPONSE）消息中，成功建立的E-RAB个数。每个业务类型对应一个子测量项。（3GPP TS 36.413）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1056,13 +1056,13 @@
    <Row ss:AutoFitHeight="0" ss:Height="48">
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME，X2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHB04</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHB04</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">S1切换，X2切换</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">ERAB.NbrHoInc &#10;</Data><NamedCell
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ERAB.NbrHoInc &#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">切换入E-RAB数</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">切换入E-RAB数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1072,7 +1072,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计切入的E-RAB个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">统计小区切换入E-RAB个数。eNB收到UE发送的“RRC连接重配置完成”消息（RRCConnectionReconfigurationComplete），指示UE小区切换入时，统计该RRC连接对应的E-RAB个数，包括系统间的切换。（3GPP TS 23.401，TS 36.331和TS 36.413）</Data><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">统计小区切换入E-RAB个数。eNB收到UE发送的“RRC连接重配置完成”消息（RRCConnectionReconfigurationComplete），指示UE小区切换入时，统计该RRC连接对应的E-RAB个数，包括系统间的切换。（3GPP TS 23.401，TS 36.331和TS 36.413）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1215,9 +1215,9 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">统计ServingGW收到请求建立缺省承载数目&#10;</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">统计ServingGW收到请求建立缺省承载数目&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ServingGW 收到会话建立请求（Create Session Request，3GPP TS 29.274）的数目,不计重发；&#10;</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ServingGW 收到会话建立请求（Create Session Request，3GPP TS 29.274）的数目,不计重发；&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1234,7 +1234,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">SGW建立缺省承载</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">SM.SuccDefaultEpsBearerS11</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">SM.SuccDefaultEpsBearerS11</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">SGW向MME发送缺省承载建立成功个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1244,9 +1244,9 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">统计ServingGW发送成功建立缺省承载个数；&#10;</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">统计ServingGW发送成功建立缺省承载个数；&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ServingGW发送会话建立响应（Create Session Response，3GPP TS 29.274）成功建立缺省承载的个数，其中cause value为Request accepted，不计重发；&#10;</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ServingGW发送会话建立响应（Create Session Response，3GPP TS 29.274）成功建立缺省承载的个数，其中cause value为Request accepted，不计重发；&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1519,15 +1519,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="72">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHC07</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ENBHC07</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">UE上下文释放，S1 Reset</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">CONTEXT.AttRelEnb</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB请求释放上下文数</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">CONTEXT.AttRelEnb</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">eNB请求释放上下文数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计由eNB发起所释放的UE上下文的个数</Data></Cell>
-    <Cell ss:StyleID="s90"><Data ss:Type="String">eNB向MME发送“UE 上下文释放请求”（UE CONTEXT RELEASE REQUEST）消息或者S1 Reset消息中包含的上下文个数，每个原因对应一个子测量项，其中正常释放的原因包括：User Inactivity, CS Fallback triggered, Inter-RAT Redirection、UE Not Available for PS Service、Redirection towards 1xRTT。（3GPP TS 36.413）</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">eNB向MME发送“UE 上下文释放请求”（UE CONTEXT RELEASE REQUEST）消息或者S1 Reset消息中包含的上下文个数，每个原因对应一个子测量项，其中正常释放的原因包括：User Inactivity, CS Fallback triggered, Inter-RAT Redirection、UE Not Available for PS Service、Redirection towards 1xRTT。（3GPP TS 36.413）</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为20且Keyword 1为0的S1-MME接口XDR个数，可区分释放原因分别统计</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
@@ -1535,15 +1535,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="72">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHC07</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ENBHC07</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">UE上下文释放</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">CONTEXT.AttRelEnb.Normal</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">正常的eNB请求释放上下文数</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">CONTEXT.AttRelEnb.Normal</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">正常的eNB请求释放上下文数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计由eNB发起的正常释放的UE上下文的个数</Data></Cell>
-    <Cell ss:StyleID="s90"><Data ss:Type="String">eNB向MME发送“UE 上下文释放请求”（UE CONTEXT RELEASE REQUEST）消息或者S1 Reset消息中包含的上下文个数，每个原因对应一个子测量项，其中正常释放的原因包括：User Inactivity, CS Fallback triggered, Inter-RAT Redirection、UE Not Available for PS Service、Redirection towards 1xRTT。（3GPP TS 36.413）</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">eNB向MME发送“UE 上下文释放请求”（UE CONTEXT RELEASE REQUEST）消息或者S1 Reset消息中包含的上下文个数，每个原因对应一个子测量项，其中正常释放的原因包括：User Inactivity, CS Fallback triggered, Inter-RAT Redirection、UE Not Available for PS Service、Redirection towards 1xRTT。（3GPP TS 36.413）</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为20且Keyword 1为0且Cause为正常原因的S1-MME接口XDR个数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
@@ -1551,15 +1551,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHC02</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ENBHC02</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">UE初始上下文建立</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">CONTEXT.SuccInitalSetup</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">初始上下文建立成功次数</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">CONTEXT.SuccInitalSetup</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">初始上下文建立成功次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB中成功建立的UE上下文个数</Data></Cell>
-    <Cell ss:StyleID="s90"><Data ss:Type="String">eNB向MME发送“初始上下文建立响应”（INITIAL CONTEXT SETUP RESPONSE）消息。（3GPP TS 36.413）&#10;</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">eNB向MME发送“初始上下文建立响应”（INITIAL CONTEXT SETUP RESPONSE）消息。（3GPP TS 36.413）&#10;</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为18且Procedure status为0的S1-MME接口XDR个数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
@@ -1570,12 +1570,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHC09</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">UE初始上下文建立，UE上下文释放、S1 Reset</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">CONTEXT.NbrLeft</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">遗留上下文个数</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">遗留上下文个数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB中遗留的UE上下文个数</Data></Cell>
-    <Cell ss:StyleID="s90"><Data ss:Type="String">当采集周期结束时，测量当前小区已经存在的UE CONTEXT个数。（3GPP TS 36.413）</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">当采集周期结束时，测量当前小区已经存在的UE CONTEXT个数。（3GPP TS 36.413）</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME、X2接口XDR</Data></Cell>
     <Cell ss:StyleID="s83"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40">统计一定的时间粒度及网元粒度下，<B>（</B><Font>Procedure Type为18且Procedure status为0的S1-MME接口XDR个数+Procedure Type为15且Procedure status为0的S1-MME接口XDR个数+Procedure Type为1且Procedure status为0且Target Cell ID与当前小区ID相同的X2接口XDR个数</Font><B>)</B><Font>减去</Font><B>（</B><Font>Procedure Type为20且Procedure status为0的S1-MME接口XDR个数+Procedure Type为16且Procedure status为0的S1-MME接口XDR个数+Procedure Type为1且Procedure status为0且Source Cell ID与当前小区ID相同的X2接口XDR个数</Font><B>）</B></ss:Data></Cell>
@@ -1584,15 +1584,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="48">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHD13</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ENBHD13</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">eNB内切换</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">HO.AttOutIntraEnb</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB内切换出请求次数</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HO.AttOutIntraEnb</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">eNB内切换出请求次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB内小区间切换请求次数</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB向UE发送携带mobilityControlInfo 的“RRC连接重配置”消息（RRCConnectionReconfiguration），指示eNB内小区间切换出请求。（3GPP TS 36.331）&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">eNB向UE发送携带mobilityControlInfo 的“RRC连接重配置”消息（RRCConnectionReconfiguration），指示eNB内小区间切换出请求。（3GPP TS 36.331）&#10;</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为7的Uu接口XDR个数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
@@ -1600,15 +1600,15 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="48">
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHD14</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ENBHD14</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">eNB内切换</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">HO.SuccOutIntraEnb</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB内切换出成功次数</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HO.SuccOutIntraEnb</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">eNB内切换出成功次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB内小区间切换成功次数</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB收到UE发送的“RRC连接重配置完成”消息（RRCConnectionReconfigurationComplete），指示eNB内小区间切换出成功。（3GPP TS 36.331）&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">eNB收到UE发送的“RRC连接重配置完成”消息（RRCConnectionReconfigurationComplete），指示eNB内小区间切换出成功。（3GPP TS 36.331）&#10;</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为7且Procedure status为0的Uu接口XDR个数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
@@ -1861,14 +1861,14 @@
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话授权终止流程</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeTerminateReq</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">应用会话授权终止尝试次数</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">应用会话授权终止尝试次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">统计PCRF接收SBC应用会话授权终止的尝试次数</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">统计PCRF接收SBC应用会话授权终止的尝试次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF收到SBC终止Rx会话STR回复STA响应</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
-    <Cell ss:StyleID="s93"><ss:Data ss:Type="String"
+    <Cell ss:StyleID="s94"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“</Font><Font
        html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">Procedure Type</Font><Font
        html:Color="#000000">”</Font><Font html:Face="Times New Roman"
@@ -1883,7 +1883,7 @@
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话授权终止流程</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeTerminateSucc</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">应用会话授权终止成功次数</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">应用会话授权终止成功次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
@@ -1898,7 +1898,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话异常终止流程</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Service.VOLTE.PccAbortReq</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Service.VOLTE.PccAbortReq</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话异常终止尝试次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
@@ -1914,7 +1914,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话异常终止流程</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Service.VOLTE.PccAbortSucc</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Service.VOLTE.PccAbortSucc</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话异常终止成功次数</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
@@ -1927,11 +1927,11 @@
     <Cell ss:StyleID="s83"/>
    </Row>
    <Row ss:Index="68" ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -1952,7 +1952,7 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>1</ActiveRow>
+     <ActiveRow>2</ActiveRow>
      <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
@@ -2612,433 +2612,433 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="17" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s99" ss:DefaultRowHeight="12">
-   <Column ss:Index="2" ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="54.75"
+   x:FullRows="1" ss:StyleID="s100" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="54.75"
     ss:Span="1"/>
-   <Column ss:Index="4" ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="102"/>
-   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="111"/>
-   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="36.75"/>
-   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="51" ss:Span="1"/>
-   <Column ss:Index="9" ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="200.25"/>
-   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="288.75"/>
-   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="45.75"/>
-   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="336"/>
-   <Column ss:StyleID="s99" ss:Width="354"/>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s101">
-    <Cell ss:StyleID="s102"><Data ss:Type="String">采样点</Data><NamedCell
+   <Column ss:Index="4" ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="36.75"/>
+   <Column ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="51" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="200.25"/>
+   <Column ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="288.75"/>
+   <Column ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="45.75"/>
+   <Column ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="336"/>
+   <Column ss:StyleID="s100" ss:Width="354"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s102">
+    <Cell ss:StyleID="s103"><Data ss:Type="String">采样点</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">数据编码</Data><Comment
+    <Cell ss:StyleID="s103"><Data ss:Type="String">数据编码</Data><Comment
       ss:Author="YH"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
          html:Size="9" html:Color="#000000">没有编码的即为相比北向指标规范来说新增的</Font><Font
          html:Face="Tahoma" x:Family="Swiss" html:Size="9" html:Color="#000000">Counter</Font><Font
          html:Size="9" html:Color="#000000">或指标</Font></B></ss:Data></Comment><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">流程</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">流程</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">英文名称</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">英文名称</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">中文名称</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">中文名称</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">单位</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">单位</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">网元粒度</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">网元粒度</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">时间粒度</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">时间粒度</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">指标定义</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">指标定义</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">触发点</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">触发点</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">数据来源</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">数据来源</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">算法</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">算法</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">规范来源</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">规范来源</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.TrafficUl</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">UP.TrafficUl</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">上行流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">上行流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Byte</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">所有业务XDR的上行流量之和</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">所有业务XDR的上行流量之和</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(上行流量)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.TrafficDl</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">UP.TrafficDl</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">下行流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">下行流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Byte</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">所有业务XDR的下行流量之和</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">所有业务XDR的下行流量之和</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(下行流量)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(下行流量)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.OnlineTimeUl</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">UP.OnlineTimeUl</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">上行在线时长</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">上行在线时长</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ms</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">有效传输数据的时间（上行）</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">有效传输数据的时间（上行）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(OnlineTimeUl) - 注：当前规范的XDR没有输出此字段</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(OnlineTimeUl) - 注：当前规范的XDR没有输出此字段</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.OnlineTimeDl</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">UP.OnlineTimeDl</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">下行在线时长</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">下行在线时长</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ms</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">有效传输数据的时间（下行）</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">有效传输数据的时间（下行）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(OnlineTimeDl) - 注：当前规范的XDR没有输出此字段</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(OnlineTimeDl) - 注：当前规范的XDR没有输出此字段</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SessionCount</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP.SessionCount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">所有HTTP会话的个数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">所有HTTP会话的个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(1)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(1)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SessionRespCount</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP.SessionRespCount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话响应次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话响应次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到第一个Get的响应包，且返回码为200的次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话中，收到第一个Get的响应包，且返回码为200的次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(第一个响应包时延!=null &amp;&amp; 事物状态=200)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(第一个响应包时延!=null &amp;&amp; 事物状态=200)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SessionSuccCount</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP.SessionSuccCount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话完成次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话完成次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到最后一个Get的响应包，且返回码为200的次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话中，收到最后一个Get的响应包，且返回码为200的次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(最后一个内容包时延!=null &amp;&amp; 事物状态=200)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(最后一个内容包时延!=null &amp;&amp; 事物状态=200)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.RespLatency</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP.RespLatency</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话响应时长</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话响应时长</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ms</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到第一个Get的响应包的时延</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话中，收到第一个Get的响应包的时延</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Avg(第一个响应包时延)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Avg(第一个响应包时延)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="36">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SuccLatency</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP.SuccLatency</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话完成时长</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话完成时长</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ms</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到最后一个Get的响应包的时延</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">HTTP会话中，收到最后一个Get的响应包的时延</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Avg(最后一个内容包时延)</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Avg(最后一个内容包时延)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.Traffic</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.Traffic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Byte</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信业务产生的总流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信业务产生的总流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的即时通信XDR/HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的即时通信XDR/HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用小类=微信</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用小类=微信</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.ActiveUsers</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.ActiveUsers</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信活跃用户数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信活跃用户数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">个</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">在统计时间内使用过微信业务的用户数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">在统计时间内使用过微信业务的用户数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的即时通信XDR/HTTP XDR</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的即时通信XDR/HTTP XDR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(Distinct IMSI) When 应用小类=微信</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(Distinct IMSI) When 应用小类=微信</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.HeartBeatCount</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.HeartBeatCount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信心跳次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信心跳次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信心跳消息的次数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信心跳消息的次数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(应用小类=心跳) When 应用大类=微信细分业务</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(应用小类=心跳) When 应用大类=微信细分业务</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.TextMsgCount</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.TextMsgCount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信文本消息数量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信文本消息数量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">个</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）文本消息的个数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信（收/发）文本消息的个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(应用小类=文本消息) When 应用大类=微信细分业务</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(应用小类=文本消息) When 应用大类=微信细分业务</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.TextMsgTraffic</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.TextMsgTraffic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信文本消息流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信文本消息流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Byte</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）文本消息的总流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信（收/发）文本消息的总流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用大类=微信细分业务 &amp;&amp; 应用小类=文本消息</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用大类=微信细分业务 &amp;&amp; 应用小类=文本消息</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.VoiceMsgCount</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.VoiceMsgCount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信语音消息数量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信语音消息数量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">个</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">个</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）语音消息的个数</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信（收/发）语音消息的个数</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(应用小类=语音消息) When 应用大类=微信细分业务</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Count(应用小类=语音消息) When 应用大类=微信细分业务</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.VoiceMsgTraffic</Data><NamedCell
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">WeiXin.VoiceMsgTraffic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信语音消息流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信语音消息流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Byte</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">小区</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">15分钟</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）语音消息的总流量</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">微信（收/发）语音消息的总流量</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用大类=微信细分业务 &amp;&amp; 应用小类=语音消息</Data><NamedCell
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用大类=微信细分业务 &amp;&amp; 应用小类=语音消息</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
