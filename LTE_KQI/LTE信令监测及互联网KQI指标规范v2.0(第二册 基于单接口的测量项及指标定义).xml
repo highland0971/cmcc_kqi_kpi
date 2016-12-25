@@ -60,7 +60,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m129590912">
+  <Style ss:ID="m129001840">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -335,6 +335,17 @@
    <Font ss:FontName="宋体" x:CharSet="134"/>
    <Interior/>
   </Style>
+  <Style ss:ID="s105">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#FF0000"/>
+   <Interior/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="修订历史">
   <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="9" x:FullColumns="1"
@@ -355,7 +366,7 @@
     <Cell ss:StyleID="s70"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="372">
-    <Cell ss:MergeDown="6" ss:StyleID="m129590912"><Data ss:Type="String">v2.0</Data></Cell>
+    <Cell ss:MergeDown="6" ss:StyleID="m129001840"><Data ss:Type="String">v2.0</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="DateTime">2015-01-01T00:00:00.000</Data></Cell>
     <Cell ss:StyleID="s68"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">根据统一DPI最新规范修订原有指标算法，并新增部分VoLTE相关指标算法:&#10;1、由于统一DPI规范修订，更新以下“测量项”sheet中的“算法”列： Combined EPS附着请求次数、Combined EPS附着成功次数、联合跟踪区更新请求次数、联合跟踪区更新成功次数、MME内S1接口每相邻关系切出尝试次数、MME内S1接口切出成功次数、MME内S1接口切入尝试次数、MME内S1接口切入成功次数、切换入E-RAB数、eNB请求释放上下文数、正常的eNB请求释放上下文数、初始上下文建立成功次数、遗留上下文个数、专用承载激活请求次数、专用承载激活成功次数；&#10;2、更新“测量项”sheet中“</Font><Font
@@ -477,7 +488,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">MM.AttEpsAttach</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">EPS附着请求次数</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">EPS附着请求次数V2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1942,6 +1953,7 @@
     <Pane>
      <Number>3</Number>
      <ActiveRow>1</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
