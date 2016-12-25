@@ -1,0 +1,3074 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>李健</Author>
+  <LastAuthor>高宏</LastAuthor>
+  <Created>2011-12-07T03:08:55Z</Created>
+  <LastSaved>2015-07-28T02:28:27Z</LastSaved>
+  <Company>ABCD</Company>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9255</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>491</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <DoNotSaveLinkValues/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="0,0&#13;&#10;NA&#13;&#10;">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="常规 2">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="常规 3">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m129590912">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0070C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="yyyy&quot;年&quot;m&quot;月&quot;;@"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="yyyy&quot;年&quot;m&quot;月&quot;"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s87" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s88" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s90" ss:Parent="s63">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s91">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s96" ss:Parent="s64">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s97" ss:Parent="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="修订历史">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s65" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:StyleID="s65" ss:Width="61.5"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="504"/>
+   <Column ss:StyleID="s65" ss:Width="112.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">版本</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">修订日期</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">修订内容</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">修订人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">v1.0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="DateTime">2014-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">发布规范</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="372">
+    <Cell ss:MergeDown="6" ss:StyleID="m129590912"><Data ss:Type="String">v2.0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="DateTime">2015-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">根据统一DPI最新规范修订原有指标算法，并新增部分VoLTE相关指标算法:&#10;1、由于统一DPI规范修订，更新以下“测量项”sheet中的“算法”列： Combined EPS附着请求次数、Combined EPS附着成功次数、联合跟踪区更新请求次数、联合跟踪区更新成功次数、MME内S1接口每相邻关系切出尝试次数、MME内S1接口切出成功次数、MME内S1接口切入尝试次数、MME内S1接口切入成功次数、切换入E-RAB数、eNB请求释放上下文数、正常的eNB请求释放上下文数、初始上下文建立成功次数、遗留上下文个数、专用承载激活请求次数、专用承载激活成功次数；&#10;2、更新“测量项”sheet中“</Font><Font
+       html:Color="#FF0000">切出失败的E-RAB数</Font><Font html:Color="#000000">”的触发点及算法，原定义只统计S1口和X2口成功切换中的失败E-RAB数，按测量项的定义，也需要包含失败切换的E-RAB数；需要注意此种切换失败，需要标记为Bearer Status为2；&#10;3、由于指标重复，删除v1.0版中第37、38行“E-RAB建立请求数”、“E-RAB建立成功数”两个测量项；该两项测量项请见v2.0版中第20、21行；&#10;4、在计算“专用承载激活请求次数”、“专用承载激活成功次数”“E-RAB建立请求数”、“E-RAB建立成功数”几项测量项时，需要注意XDR生成时对于9、10、13的处理：（a）对于Procedure Type =9 流程，包括UE发起BEARER RESOURCE ALLOCATION REQUEST及其触发的完整的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST或完整的MODIFY EPS BEARER CONTEXT REQUEST或BEARER RESOURCE ALLOCATION REJECT的整个流程，只有完整的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST或完整的MODIFY EPS BEARER CONTEXT REQUEST成功，Procedure Type=9的流程才算成功，其中包含在内的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST流程不再单独生成“Procedure Type =13”的XDR；(b) 对于Procedure Type =10流程，包括UE发起的BEARER RESOURCE MODIFICATION REQUEST及其触发的完整的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST或完整的MODIFY EPS BEARER CONTEXT REQUEST或完整的DEACTIVATE EPS BEARER CONTEXT REQUEST或BEARER RESOURCE MODIFICATION REJECT的整个流程,只有完整的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST或完整的MODIFY EPS BEARER CONTEXT REQUEST或完整的DEACTIVATE EPS BEARER CONTEXT REQUEST成功，Procedure Type=10的流程才算成功，其中包含在内的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST流程不再单独生成“Procedure Type =13”的XDR；(c) Procedure Type =13的流程仅包括MME发起的ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST流程；&#10;5、新增VoLTE相关测量项：IMS网络PDN连接请求次数、IMS网络PDN连接完成次数、VoLTE语音专用承载激活请求次数、VoLTE语音专用承载激活成功次数、VoLTE视频专用承载激活请求次数、VoLTE视频专用承载激活成功次数、VoLTE语音专有承载的更新请求次数、VoLTE语音专有承载的更新成功次数、VoLTE视频专有承载的更新请求次数、VoLTE视频专有承载的更新成功次数；&#10;6、新增”指标”子sheet中的如下指标：IMS网络PDN连接建立成功率、VoLTE语音专用承载建立成功率、VoLTE视频专用承载建立成功率、VoLTE语音专用承载更新成功率、VoLTE视频专用承载更新成功率；</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">杨晓、祖国英</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="DateTime">2015-02-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">更新“测量项”、“指标”两个子sheet的M列“规范来源”</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">杨晓、祖国英</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="DateTime">2015-03-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">更新“测量项”子sheet中“遗留上下文个数”、“专用承载激活请求次数”、&quot;专用承载激活成功次数&quot;、“E-RAB建立请求数”、“E-RAB建立成功数”、“切换入E-RAB数”、“VoLTE语音专用承载建立”、“VoLTE视频专用承载建立”的“算法”列；“Combined EPS附着请求次数”、“Combined EPS附着成功次数”的触发点描述</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">杨晓、祖国英</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="2" ss:StyleID="s77"><Data ss:Type="DateTime">2015-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">更新“测量项”子sheet中“E-RAB建立请求数”、“E-RAB建立成功数”的“算法”列：在原算法基础上增加了Procedure Type为2的统计，请注意统一DPI规范中的以下规定：“对于Attach/TAU/Service requsest/Detach等较大的NAS流程，若其过程中还包含其他NAS流程（如Identity Acquisition、Authentication、Security Activation、PDN connectivity、EPS bearer resource modify等），需要输出前者XDR的同时输出所包含的其他NAS流程XDR；Attach过程中所建立的承载的相关信息仅在伴随的PDN connectivity过程XDR中体现，Attach过程XDR中不体现”；&#10;更新“测量项”子sheet中“eNB请求释放上下文数”、“正常的eNB请求释放上下文数”的“算法”列：补充了keyword 1为0（即流程由eNB发起）的统计；&#10;为了与“指标”子sheet中的“SGW建立缺省承载”对应，将“测量项”子sheet中的SGW建立专用承载的指标更新为SGW建立缺省承载，即“SGW从MME收到缺省承载建立请求个数”、“SGW向MME发送缺省承载建立成功个数”</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">杨晓、祖国英</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:Index="2" ss:StyleID="s77"><Data ss:Type="DateTime">2015-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">更新“测量项”子sheet中“E-RAB建立请求数”、“E-RAB建立成功数”的“算法”列：在原算法基础上增加了Procedure Type为3和5的统计</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">杨晓、祖国英</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s77"><Data ss:Type="DateTime">2015-07-03T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">增加Rx接口测量项</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">赵际洲、黄震宁</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s77"><Data ss:Type="DateTime">2015-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">将“指标”子sheet中的“MME建立缺省承载、MME建立专用承载”两项的采样点和数据来源改为S11接口</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">杨晓、祖国英</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>1200</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="测量项">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=测量项!R1C1:R37C13"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="68" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s79" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:StyleID="s80" ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Column ss:StyleID="s80" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="137.25"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="300.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="36.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="51" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="200.25"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="288.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="45.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="336"/>
+   <Column ss:StyleID="s79" ss:Width="354"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="129.75"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s81">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">采样点</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">数据编码</Data><Comment
+      ss:Author="方波"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
+        html:Size="9" html:Color="#000000">没有编码的即为相比北向指标规范来说新增的Counter或指标</Font></ss:Data></Comment><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">流程</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">英文名称</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">中文名称</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">单位</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">网元粒度</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">时间粒度</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">指标定义</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">触发点</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">数据来源</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">算法</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">规范来源</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">备注</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHE01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">附着</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MM.AttEpsAttach</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EPS附着请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EPS附着请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME收到UE发送的EPS附着请求消息（ATTACH REQUEST，3GPP TS 24.301），不计重发。 &#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHE02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">附着</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MM.SuccEpsAttach</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EPS附着成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EPS附着成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME收到UE发送附着完成消息（ATTACH COMPLETE，3GPP TS 24.301），不计重发。 &#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Procedure Status为0的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">附着</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MM.AttCombinedEpsAttach</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Combined EPS附着请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Combined EPS附着请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME收到UE发送的EPS附着请求消息（ATTACH REQUEST，3GPP TS 24.301），其中EPS attach type为combined EPS/IMSI attach，不计重发。 &#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Keyword 1字段为2的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">附着</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MM.SuccCombinedEpsAttach</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Combined EPS附着成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Combined EPS附着成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME收到UE发送附着完成消息（ATTACH COMPLETE，3GPP TS 24.301），其中EPS attach result为combined EPS/IMSI attach，不计重发。 &#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Keyword 1字段为2且Procedure Status为0且Keyword 2字段为2的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHF01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">跟踪区更新</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MM.AttTau</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">跟踪区更新请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">跟踪区更新请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME收到UE发送的TRACKING AREA UPDATE REQUEST消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为5的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHF02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">跟踪区更新</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MM.SuccTau&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">跟踪区更新成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">跟踪区更新成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME收到UE发送的TRACKING AREA UPDATE COMPLETE消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为5且Procedure Status为0的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MMEHF01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MM.AttCombinedTau</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME收到UE发送的TRACKING AREA UPDATE REQUEST消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为5且Keyword 1字段为1或者2的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MMEHF02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MM.SuccCombinedTau&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME收到UE发送的TRACKING AREA UPDATE COMPLETE消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为5且Keyword 1字段为1或者2且Procedure Status为0且Keyword 2字段为1或者5的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">HO.AttHandoverOut</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内S1接口每相邻关系切出尝试次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">切出尝试次数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME收到源eNB发送的HANDOVER REQUIRED消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元相邻关系粒度下，Procedure Type为16的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">HO.SuccHandoverOut</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内S1接口切出成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">切出成功次数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UE收到MME发送的HANDOVER COMMAND消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元相邻关系粒度下，Procedure Type为16且Procedure Status为0的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">HO.AttHandoverIn</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内S1接口切入尝试次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">切入尝试次数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">目标eNB收到MME发送的HANDOVER REQUEST消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元相邻关系粒度下，Procedure Type为15的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">HO.SuccHandoverIn</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内S1接口切入成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">切入成功次数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME收到目标eNB回复的HANDOVER NOTIFY消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元相邻关系粒度下，Procedure Type为15且Procedure Status为0的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHH01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">X2切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">HO.AttIntraMmeInterEnbX2&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内X2接口切换尝试数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内X2接口切换尝试数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计MME收到目标eNodeB发出的路径选择请求（Path Switch Request，3GPP TS 23.401）消息的个数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元相邻关系粒度下，Procedure Type为14的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHH02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">X2切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">HO.SuccIntraMmeInterEnbX2&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内X2接口切换成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME内X2接口切换成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计MME向目标eNodeB发送路径选择请求确认（Path Switch Request Ack，3GPP TS 23.401）消息的个数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元相邻关系粒度下，Procedure Type为14且Procedure Status为0的S1-MME接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHA05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">专用承载建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">SM.ActDedicatedEpsBearerRequest</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">专用承载激活请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计MME向UE发起激活EPS专用承载的次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME向UE发送ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST消息（3GPP TS 23.401)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为9、10、13的S1-MME接口XDR中Bearer 1 Status到Bearer N Status为1、2的承载个数之和</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHA06</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">专用承载建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">SM.ActDedicatedEpsBearerAccept</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">专用承载激活成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计UE向MME确认专用承载建立成功的次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">UE向MME发送ACTIVATE DEDICATED EPS BEARER CONTEXT ACCEPT消息（3GPP TS 23.401)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为9、10、13的S1-MME接口XDR中Bearer 1 Status到Bearer N Status为1的承载个数之和</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHG01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">寻呼</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">PAG.PagReceived</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">寻呼记录接收个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB收到的寻呼消息个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB从MME成功收到的“寻呼”消息(PAGING),且TAI List含有本小区的TA（3GPP TS 36.413）。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为4且PAGING消息中的TAI List含有本小区的TA的S1-MME接口XDR个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME，X2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHB12</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S1切换，X2切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ERAB.HoFail</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">切出失败的E-RAB数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计切出失败的E-RAB个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">（1）对于基于S1接口的切换，统计MME发给eNB的Handover Command消息中包括的E-RABs to Release List IE 中的E-RAB个数。（3GPP TS 36.413）&#10;（2）对于基于X2接口的切换，target eNB发给Source eNB的Handover Request ACK消息中的E-RABs Not Admitted List IE 中的E-RAB数（3GPP TS 36.423）&#10;注：在网络开启Multiple HO功能时，只统计被选中的目标小区对应的Handover Command和Handover Request ACK消息。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR，X2接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为16的S1-MME接口XDR中Bearer 1 Status到Bearer N Status为2的承载个数与Procedure Type为1的X2接口XDR中Bearer 1 Status到Bearer N Status为2的承载个数之和</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHB05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">初始上下文建立，E-RAB建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ERAB.NbrAttEstab</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">E-RAB建立请求数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计请求建立的E-RAB个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">eNB接收到MME发来的“初始上下文建立请求消息”（INITIAL CONTEXT SETUP REQUEST）或 “E-RAB建立请求”（E-RAB SETUP REQUEST）消息，消息中包含的E-RAB个数。每个业务类型对应一个子测量项。（3GPP TS 36.413）。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为2、3、5、7、9、10、13的S1-MME接口XDR中Bearer 1 Status到Bearer N Status为1、2的承载个数之和，可区分QCI分别统计</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHB06</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">初始上下文建立，E-RAB建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ERAB.NbrSuccEstab</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">E-RAB建立成功数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计成功建立的E-RAB个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">统计E-RAB建立成功个数。eNB向MME发送“初始上下文建立响应”（INITIAL CONTEXT SETUP RESPONSE）消息或“E-RAB建立响应”（E-RAB SETUP RESPONSE）消息中，成功建立的E-RAB个数。每个业务类型对应一个子测量项。（3GPP TS 36.413）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为2、3、5、7、9、10、13的S1-MME接口XDR中Bearer 1 Status到Bearer N Status为1的承载个数之和，可区分QCI分别统计</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME，X2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ENBHB04</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S1切换，X2切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ERAB.NbrHoInc &#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">切换入E-RAB数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计切入的E-RAB个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">统计小区切换入E-RAB个数。eNB收到UE发送的“RRC连接重配置完成”消息（RRCConnectionReconfigurationComplete），指示UE小区切换入时，统计该RRC连接对应的E-RAB个数，包括系统间的切换。（3GPP TS 23.401，TS 36.331和TS 36.413）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为15的S1-MME接口XDR中Bearer 1 Status到Bearer N Status为1的承载个数与Procedure Type为1的X2接口XDR中Bearer 1 Status到Bearer N Status为1的承载个数之和</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHB01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME建立缺省承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.AttCreateDefaultS5S8BearerMme</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME请求建立的缺省S5S8承载数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME向SGW请求建立的缺省S5/S8承载的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME向SGW发送Create Session Request消息的次数，消息中可能包括一个缺省承载和多个专用承载。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的S10/S11接口XDR中，Bearer 1 Type到Bearer N Type中，值为1的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHB02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME建立缺省承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.SuccCreateDefaultS5S8BearerMme</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME成功建立的缺省S5S8承载数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SGW返回成功建立的缺省S5/S8承载的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME收到来自SGW的Create Session Response消息，且其cause value=16(Request accepted)或17（Request accepted partially）的消息个数（3GPP TS 29.274）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Procedure Status为0的S10/S11接口XDR中，Bearer 1 Type到Bearer N Type中，值为1的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHB04</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME建立专用承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.AttCreateDedicatedS5S8BearerMme</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME请求建立的专用S5S8承载数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME向SGW请求建立的专用S5/S8承载的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME向SGW发送Create Session Request消息中的专用承载的个数（专用承载的Bearer Contexts  IE 的EPS Bearer ID字段不等于Linked EPS Bearer ID）。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的S10/S11接口XDR中，Bearer 1 Type到Bearer N Type中，值为2的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHB05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME建立专用承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.SuccCreateDedicatedS5S8BearerMme</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME成功建立的专用S5S8承载数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SGW返回成功建立的专用S5/S8承载的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME收到来自SGW的Create Session Response，消息中Bearer Contexts  IE的cause value为16(Request accepted）或17（Request accepted partially）的专用承载的个数，（3GPP TS 29.274）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Procedure Status为0的S10/S11接口XDR中，Bearer 1 Type到Bearer N Type中，值为2的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SGWHA03</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SGW建立缺省承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.AttDefaultEpsBearerS11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SGW从MME收到缺省承载建立请求个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">统计ServingGW收到请求建立缺省承载数目&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ServingGW 收到会话建立请求（Create Session Request，3GPP TS 29.274）的数目,不计重发；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的S10/S11接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项SGW-PM(V1.3.1).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SGWHA04</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SGW建立缺省承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">SM.SuccDefaultEpsBearerS11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SGW向MME发送缺省承载建立成功个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">统计ServingGW发送成功建立缺省承载个数；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ServingGW发送会话建立响应（Create Session Response，3GPP TS 29.274）成功建立缺省承载的个数，其中cause value为Request accepted，不计重发；&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S10/S11接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Procedure Status为0的S10/S11接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项SGW-PM(V2.0.1).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S6a</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">HSSHF01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">更新位置</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">DIAM.UpdateLocationReq</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">更新位置请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计HSS收到的位置请求个数&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SAE-HSS接收到MME/S4SGSN始发的“位置更新请求消息ULR”消息（ULR(Update-Location-Request)）。（3GPP TS29.272）&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S6a接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的S6a接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项HSS-PM(V2.1.1).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S6a</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">HSSHF02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">更新位置</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">DIAM.UpdateLocationAnsSucc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">更新位置成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计SAE-HSS返回的“位置更新成功的响应消息ULA”的个数&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SAE-HSS向MME/S4SGSN返回“位置更新成功的响应消息ULA”时（ULA(Update-Location-Answer)），其中的AVP值  Result-Code =2XXX。（3GPP TS29.272）&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S6a接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Procedure Status为0的S6a接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项HSS-PM(V2.1.1).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S6a</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">HSSHF04</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">用户鉴权</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">DIAM.AucInfoReq</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">鉴权信息查询请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计SAE-HSS接收到的“鉴权请求消息”个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SAE-HSS接收到的MME/S4SGSN始发的“鉴权请求消息”（AIR(Authentication-Information-Request)）。（3GPP TS29.272）&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S6a接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为6的S6a接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项HSS-PM(V2.1.1).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S6a</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">HSSHF05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">用户鉴权</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">DIAM.AucInfoAnsSucc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">鉴权信息查询成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计SAE-HSS返回的“鉴权成功的响应消息AIA”的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">当SAE-HSS向MME/S4SGSN返回“鉴权成功的响应消息AIA”消息（AIA(Authentication-Information-Answer)），其中的AVP值  Result-Code =2XXX。（3GPP TS29.272）&#10;。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S6a接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为6且Procedure Status为0的S6a接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项HSS-PM(V2.1.1).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHA05</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC.AttConnEstab</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC连接建立请求次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计RRC连接建立请求的次数（含重发），并区分建立原因分别统计。&#10;含重发是指RRC 层检测成功一次就累加一次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">eNB接收到UE发送的“RRC连接请求”（RRCConnectionRequest）消息，每个EstablishmentCause对应一个子测量项。（3GPP TS 36.331）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的Uu接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHA06</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC.SuccConnEstab</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC连接建立成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计RRC连接建立成功的次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">eNB接收到UE发送的“RRC连接建立完成”（RRCConnectionSetupComplete）消息，每个EstablishmentCause对应一个子测量项。（3GPP TS 36.331）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1且Procedure Status为0的Uu接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHA08</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接重建</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC.SuccConnReestab</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC连接重建成功次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计RRC连接重建成功的次数,并区分重建原因分别统计</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">eNB接收到UE发来的“RRC连接重建完成”（RRCConnectionReestablishmentComplete）消息。（3GPP TS 36.331）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为4且Procedure Status为0的Uu接口XDR的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHA01</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC.SetupTimeMean&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC连接平均建立时长</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">ms</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计RRC连接平均建立时长。&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">在预先设定测量周期内，统计每一个成功建立的RRC连接的时长并将其累加，即从eNB收到“RRC CONNECTION REQUEST”消息到 eNB收到“CONNECTION SETUP COMPLETE”消息之间的间隔时长。用得到该统计周期内的总时长除以该周期内成功建立的RRC连接个数，则得到每个RRC连接的平均建立时长。&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的Uu接口XDR中，Procedure End Time的值减去Procedure Start Time的值的平均值</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHA02</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC.SetupTimeMax&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC连接最大建立时长</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">ms</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计RRC连接最大建立时长。&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">在预先设定测量周期内，统计每一个成功建立的RRC连接的时长，即从eNB收到“RRC CONNECTION REQUEST”消息到 eNB收到“CONNECTION SETUP COMPLETE”消息之间的间隔时长。取该统计周期内的RRC连接时长的最大值，则得到每个RRC连接的最大建立时长。&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为1的Uu接口XDR中，Procedure End Time的值减去Procedure Start Time的值的最大值</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHC07</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UE上下文释放，S1 Reset</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">CONTEXT.AttRelEnb</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB请求释放上下文数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计由eNB发起所释放的UE上下文的个数</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">eNB向MME发送“UE 上下文释放请求”（UE CONTEXT RELEASE REQUEST）消息或者S1 Reset消息中包含的上下文个数，每个原因对应一个子测量项，其中正常释放的原因包括：User Inactivity, CS Fallback triggered, Inter-RAT Redirection、UE Not Available for PS Service、Redirection towards 1xRTT。（3GPP TS 36.413）</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为20且Keyword 1为0的S1-MME接口XDR个数，可区分释放原因分别统计</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">部分支持。支持UE上下文释放流程的统计，但是不支持S1 Reset流程中所释放的UE上下文个数的统计</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHC07</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UE上下文释放</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">CONTEXT.AttRelEnb.Normal</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">正常的eNB请求释放上下文数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计由eNB发起的正常释放的UE上下文的个数</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">eNB向MME发送“UE 上下文释放请求”（UE CONTEXT RELEASE REQUEST）消息或者S1 Reset消息中包含的上下文个数，每个原因对应一个子测量项，其中正常释放的原因包括：User Inactivity, CS Fallback triggered, Inter-RAT Redirection、UE Not Available for PS Service、Redirection towards 1xRTT。（3GPP TS 36.413）</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为20且Keyword 1为0且Cause为正常原因的S1-MME接口XDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHC02</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UE初始上下文建立</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">CONTEXT.SuccInitalSetup</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">初始上下文建立成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB中成功建立的UE上下文个数</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">eNB向MME发送“初始上下文建立响应”（INITIAL CONTEXT SETUP RESPONSE）消息。（3GPP TS 36.413）&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为18且Procedure status为0的S1-MME接口XDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ENBHC09</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UE初始上下文建立，UE上下文释放、S1 Reset</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CONTEXT.NbrLeft</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">遗留上下文个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB中遗留的UE上下文个数</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">当采集周期结束时，测量当前小区已经存在的UE CONTEXT个数。（3GPP TS 36.413）</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME、X2接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">统计一定的时间粒度及网元粒度下，<B>（</B><Font>Procedure Type为18且Procedure status为0的S1-MME接口XDR个数+Procedure Type为15且Procedure status为0的S1-MME接口XDR个数+Procedure Type为1且Procedure status为0且Target Cell ID与当前小区ID相同的X2接口XDR个数</Font><B>)</B><Font>减去</Font><B>（</B><Font>Procedure Type为20且Procedure status为0的S1-MME接口XDR个数+Procedure Type为16且Procedure status为0的S1-MME接口XDR个数+Procedure Type为1且Procedure status为0且Source Cell ID与当前小区ID相同的X2接口XDR个数</Font><B>）</B></ss:Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHD13</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">eNB内切换</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">HO.AttOutIntraEnb</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB内切换出请求次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB内小区间切换请求次数</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB向UE发送携带mobilityControlInfo 的“RRC连接重配置”消息（RRCConnectionReconfiguration），指示eNB内小区间切换出请求。（3GPP TS 36.331）&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为7的Uu接口XDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ENBHD14</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">eNB内切换</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">HO.SuccOutIntraEnb</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB内切换出成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计eNB内小区间切换成功次数</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eNB收到UE发送的“RRC连接重配置完成”消息（RRCConnectionReconfigurationComplete），指示eNB内小区间切换出成功。（3GPP TS 36.331）&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为7且Procedure status为0的Uu接口XDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-U</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">用户业务</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SUB.ActSubs</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">LTE业务的活跃用户数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定时间范围内使用过LTE业务的用户的数量</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">在预先设定的测量周期内，统计每一个进行了LTE数据业务的用户的数量，注意需要对用户通过IMSI进行去重统计</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-U接口的各个XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">在一定的时间粒度及网元粒度下，<B>去重</B><Font>统计所有数据面XDR(S1-U/HTTP/DNS/FTP/EMAIL/IM/VOIP/RTSP/P2P/)中出现的IMSI的次数&#10;</Font><B><Font
+        html:Color="#FF0000">注意：因为此测量项为去重统计，所以不能在时间和空间粒度上进行叠加统计，必须在每次统计时都单独进行去重统计</Font></B></ss:Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项eNB网元统计数据需求规范-PM(V2.5.0).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHA09</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PDN连接</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.PdnConnectivityRequest.Ims</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">IMS网络PDN连接请求次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">UE请求建立PDN连接，其APN为IMS。</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME收到UE发送的PDN CONNECTIVITY REQUEST消息，其Access point name信息单元（IE)的值为IMS。（3GPP TS 24.301)</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为7且APN为IMS的S1-MME接口XDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHA11</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PDN连接</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.PdnConnectivityComplete.Ims</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">IMS网络PDN连接完成次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">UE确认指向IMS网络的PDN连接建立完成。</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME收到ENB发来的PDN Connectivity complete消息。&#10;注：尽管在23.401的5.10节（Multiple PDN Support）的图（UE requested PDN connectivity）中提及了PDN Connectivity complete消息，且它通过UPLINK NAS Transport消息携带，但在NAS层协议（24.301）中并未找到PDN Connectivity complete的定义，且UPLINK NAS Transport的消息格式表明它只用于携带短信。因此 ，如果在实现中无此消息，可考虑以PDP连接建立过程中MME收到的Activate default EPS bearer context accept消息替代。</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为7且APN为IMS且Procedure Status为0的S1-MME接口XDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHA05</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE语音专用承载建立</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">SM.ActDedicatedEpsBearerRequest.QCI1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">VoLTE语音专用承载激活请求次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计MME向UE发起激活VoLTE语音EPS专用承载的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME向UE发送ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=1的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为13的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含1且QCI为1的Bearer Status为1、2的承载个数之和</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MMEHA06</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE语音专用承载建立</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">SM.ActDedicatedEpsBearerAccept.QCI1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">VoLTE语音专用承载激活成功次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计UE向MME确认VoLTE语音专用承载建立成功的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">UE向MME发送ACTIVATE DEDICATED EPS BEARER CONTEXT ACCEPT消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=1的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为13的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含1且QCI为1的Bearer Status为1的承载个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;中国移动北向接口规范测量项MME-PM(V2.0.2).xlsx</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE视频专用承载建立</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">SM.ActDedicatedEpsBearerRequest.QCI2</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">VoLTE视频专用承载激活请求次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计MME向UE发起激活VoLTE视频EPS专用承载的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME向UE发送ACTIVATE DEDICATED EPS BEARER CONTEXT REQUEST消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=2的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为13的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含2且QCI为2的Bearer Status为1、2的承载个数之和</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;目前EPC网元统计数据需求规范中暂无该测量项</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE视频专用承载建立</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">SM.ActDedicatedEpsBearerAccept.QCI2</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">VoLTE视频专用承载激活成功次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">统计UE向MME确认VoLTE视频专用承载建立成功的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">UE向MME发送ACTIVATE DEDICATED EPS BEARER CONTEXT ACCEPT消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=2的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为13的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含2且QCI为2的Bearer Status为1的承载个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;目前EPC网元统计数据需求规范中暂无该测量项</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专有承载的更新</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ModEpsBearerRequest.QCI1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专有承载的更新请求次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计MME向UE请求VoLTE语音专用承载更新的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME向UE发送MODIFY EPS BEARER CONTEXT REQUEST消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=1的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为9、10、12的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含1且QCI为1的Bearer Status为3、4的承载个数之和</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;目前EPC网元统计数据需求规范中暂无该测量项</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专有承载的更新</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ModEpsBearerAccept.QCI1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专有承载的更新成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计UE向MME请求VoLTE语音专用承载更新的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">UE向MME发送MODIFY EPS BEARER CONTEXT ACCEPT消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=1的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为9、10、12的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含1且QCI为1的Bearer Status为3的承载个数之和</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;目前EPC网元统计数据需求规范中暂无该测量项</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专有承载的更新</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ModEpsBearerRequest.QCI2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专有承载的更新请求次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计MME向UE请求VoLTE视频专用承载更新的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">MME向UE发送MODIFY EPS BEARER CONTEXT REQUEST消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=2的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为9、10、12的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含2且QCI为2的Bearer Status为3、4的承载个数之和</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;目前EPC网元统计数据需求规范中暂无该测量项</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专有承载的更新</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ModEpsBearerAccept.QCI2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专有承载的更新成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计UE向MME请求VoLTE视频专用承载更新的次数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">UE向MME发送MODIFY EPS BEARER CONTEXT ACCEPT消息（3GPP TS 23.401)。针对VoLTE语音业务的QCI=2的专用承载单独统计。</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，Procedure Type为9、10、12的S1-MME接口XDR中Bearer 1 QCI到Bearer N QCI的值包含2且QCI为2的Bearer Status为3的承载个数之和</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;目前EPC网元统计数据需求规范中暂无该测量项</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权流程</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizedReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String"> 应用会话授权尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计PCRF接收SBC应用会话授权的尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF收到SBC初始建立Rx会话或修改Rx会话AAR（3GPP 29214）请求</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=0，的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权流程</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizedSucc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String"> 应用会话授权成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计PCRF成功处理SBC应用会话授权请求的次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF针对初始建立Rx会话或修改Rx会话的AAR回复AAA（3GPP 29214）响应携带Result-Code为Diameter-success</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=0，且“RESULT_CODE”=2001的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权更新流程</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeUpdateReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权更新尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计PCRF接收SBC应用会话授权更新请求的次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">当PCRF收到PCEF的资源预留事件上报时，向SBC发送RAR（3GPP 29214）消息，即应用会话授权更新的尝试</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=1， “的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权更新流程</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeUpdateSucc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权更新成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计PCRF成功处理SBC应用会话授权更新请求的次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">当PCRF收到PCEF的事件上报时，向SBC发送RAR（3GPP 29214）消息，通知该事件的发生。PCRF收到由SBC返回的结果码为“DIAMETER-SUCCESS (2001)”的RAA（3GPP 29214）响应消息，即应用会话授权更新成功</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=1，且“RESULT_CODE”=2001的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话授权终止流程</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeTerminateReq</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">应用会话授权终止尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">统计PCRF接收SBC应用会话授权终止的尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF收到SBC终止Rx会话STR回复STA响应</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s93"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">Procedure Type</Font><Font
+       html:Color="#000000">”</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">=2</Font><Font html:Color="#000000">，的</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">xDR</Font><Font
+       html:Color="#000000">个数</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话授权终止流程</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeTerminateSucc</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">应用会话授权终止成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计PCRF成功处理SBC应用会话授权终止请求的次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF针对终止Rx会话的STA回复STA（3GPP 29214）响应携带Result-Code为Diameter-success</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=2且“RESULT_CODE” =2001的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话异常终止流程</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Service.VOLTE.PccAbortReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话异常终止尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计PCRF向SBC发送ASR消息即应用会话异常终止的尝试消息的次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF向SBC发送ASR消息即应用会话异常终止的尝试消息</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=3的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">应用会话异常终止流程</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Service.VOLTE.PccAbortSucc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话异常终止成功次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">次</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计SBC成功处理PCRF应用会话异常终止请求的次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PCRF向SBC发送ASR消息通知Rx会话异常终止时，PCRF收到由SBC返回的结果码为“DIAMETER-SUCCESS (2001)”的ASA响应消息</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口XDR</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">一定的时间粒度及网元粒度下，字段&quot;Interface&quot;=26，“Procedure Type”=3且“RESULT_CODE”=2001的xDR个数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:Index="68" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s98"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>90</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="指标">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=指标!R1C1:R15C12"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="28" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s79" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:StyleID="s80" ss:AutoFitWidth="0" ss:Width="54.75"
+    ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="117.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="36.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Column ss:StyleID="s79" ss:Width="51"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="200.25"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="300.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="217.5"/>
+   <Column ss:StyleID="s79" ss:Width="354"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s81">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">采样点</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">数据编码</Data><Comment
+      ss:Author="YH"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Size="9" html:Color="#000000">没有编码的即为相比北向指标规范来说新增的</Font><Font
+         html:Face="Tahoma" x:Family="Swiss" html:Size="9" html:Color="#000000">Counter</Font><Font
+         html:Size="9" html:Color="#000000">或指标</Font></B></ss:Data></Comment><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">流程</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">英文名称</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">中文名称</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">单位</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">网元粒度</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">时间粒度</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">指标定义</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">业务需求</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">数据来源</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">算法</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">规范来源</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0101</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">附着</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">EPS附着成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">用户附着至LTE网络的成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">附着失败用户将无法使用EPS网络，对用户感知影响大。附着成功率还可用来辅助分析核心网的局数据制作是否正确，如是否漏做某号段的数据、路由指向是否正确等。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MM.SuccEpsAttach /MM.AttEpsAttach</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">联合附着</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合附着成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">用户附着至LTE和CS网络的成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合附着失败用户将无法使用EPS网络和CS网络，对用户感知影响大。附着成功率还可用来辅助分析核心网的局数据制作是否正确，如是否漏做某号段的数据、路由指向、SGs配置是否正确等。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MM.SuccCombinedEpsAttach/MM.AttCombinedEpsAttach</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">跟踪区更新</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">跟踪区更新成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">跟踪区更新成功与更新请求的比值</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">跟踪区更新成功率体现了用户在LTE网络覆盖范围内移动时，保持附着状态、使用业务的能力。不同类别(MME内、MME间、SGW内、SGW间）的跟踪区更新成功率的对比还可用于分析MME和SGW之间的配合上是否存在问题（如不同厂家的互通等）。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&#10;MM.SuccTau/MM.AttTau&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新成功与联合更新请求的比值</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">联合跟踪区更新成功率体现了用户在LTE网络覆盖范围内移动时，保持附着状态、使用LTE业务和CS业务的能力。不同类别(MME内、MME间、SGW内、SGW间）的跟踪区更新成功率的对比还可用于分析MME和SGW之间的配合上是否存在问题（如不同厂家的互通等），MME和MSC之间的配合是否存在问题。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MM.SuccCombinedTau/MM.AttCombinedTau&#10;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME内切换出成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">系统内MME内切换出的成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">切换成功率体现了用户在移动状态中的业务连续性。 </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HO.SuccHandoverOut / HO.AttHandoverOut</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME内切换入成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">系统内MME内切换入的成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">切换成功率体现了用户在移动状态中的业务连续性。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HO.SuccHandoverIn / HO.AttHandoverIn</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">切换</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME内X2切换成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">EutranRelation</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">系统内MME内X2切换的成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">切换成功率体现了用户在移动状态中的业务连续性。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HO.SuccIntraMmeInterEnbX2 / HO.AttIntraMmeInterEnbX2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0109</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">专用承载激活</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">专用承载激活成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME向E-UTRAN激活专用承载的成功概率。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">E-UTRAN侧专用承载激活成功率会对EPS网络承载的业务的发起（或建立）过程产生影响。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ActDedicatedEpsBearerAccept / SM.ActDedicatedEpsBearerRequest</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0110</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME建立缺省承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME建立缺省承载成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME向SGW请求建立缺省承载的成功概率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">附着过程、及PDN 连接建立过程，MME将向SGW发送建立会话请求（Create Session Request),请求建立缺省承载。&#10;S5S8接口的缺省承载建立成功率将影响上述过程的成功率。分局向的（即基于EpRpDynS11Mme粒度）的统计结果，也有助于分析SGW对承载建立成功率的影响。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S11接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.SuccCreateDefaultS5S8BearerMme / SM.AttCreateDefaultS5S8BearerMme</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0111</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MME建立专用承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME建立专用承载成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">MME向SGW请求建立专用承载的成功率。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">在涉及SGW变更的切换过程中，MME将向SGW发送Create Session Request消息，请求建立缺省承载和专用承载。专用承载建立的成功率将影响切换过程中业务的连续性。 分局向的（即基于EpRpDynS11Mme粒度）的统计结果，也有助于分析SGW对承载建立成功率的影响。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S11接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.SuccCreateDedicatedS5S8BearerMme / SM.AttCreateDedicatedS5S8BearerMme</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0401</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SGW建立缺省承载</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SGW建立缺省承载成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SWG向MME发起的缺省承载建立过程成功的比率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">缺省承载建立是否成功，意味着用户是否可以接入PDN网络。</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S11接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.SuccDefaultEpsBearerS11/ SM.AttDefaultEpsBearerS11</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S6a</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0607</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">更新位置</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HSS更新位置成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HSS收到来自MME/S4-SGSN的更新位置请求后，成功执行的比率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">主要用于辅助分析HSS是否正常工作</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S6a接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DIAM.UpdateLocationAnsSucc / DIAM.UpdateLocationReq</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S6a</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EC0608</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">用户鉴权</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HSS鉴权信息查询成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">HSS收到来自MME/S4-SGSN的鉴权信息查询请求后，成功执行的比率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">主要用于辅助分析HSS是否正常工作</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S6a接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DIAM.AucInfoAnsSucc / DIAM.AucInfoReq</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EU0101</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">RRC连接建立成功率</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">处于空闲模式（RRC_IDLE）下的UE收到非接入层请求建立信令连接时，UE将发起RRC连接建立过程。eNodeB收到RRC建立请求之后决定是否建立RRC连接。RRC连接建立成功率用RRC连接建立成功次数和RRC连接建立请求次数的比来表示</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">反映eNodeB或者小区的UE接纳能力，RRC连接建立成功意味着UE与网络建立了信令连接。RRC连接建立，包括（如位置更新、系统间小区重选、注册等）的RRC连接建立</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu接口测量项</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">RRC.SuccConnEstab/RRC.AttConnEstab</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EUTRAN网络运行管理指标(V1.1.0).xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu、S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EU0103</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">RRC连接建立,初始上下文建立，E-RAB建立</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">无线接通率&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">从综合的角度考虑接通率，可以把RRC连接建立成功率和E-RAB指派成功率联合起来。</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计UE成功接入网络的性能。&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu和S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">ERAB.NbrSuccEstab/ERAB.NbrAttEstab*RRC.SuccConnEstab/RRC.AttConnEstab</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EUTRAN网络运行管理指标(V2.5.0).xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Uu</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">EU0201</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UE上下文释放，S1 Reset，UE初始上下文建立</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">无线掉线率&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">UE CONTEXT异常释放比例。</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">无线掉线率反映了系统的业务通讯保持能力，也反映了系统的稳定性和可靠性。&#10;&#10;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">∑(CONTEXT.AttRelEnb-CONTEXT.AttRelEnb.Normal)/∑(CONTEXT.SuccInitalSetup+CONTEXT.NbrLeft)</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EUTRAN网络运行管理指标(V2.5.0).xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-U</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">用户业务</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">LTE业务活跃用户数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">个</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">在预先设定的测量周期内，统计每一个进行了LTE数据业务的用户的数量，注意需要对用户通过IMSI进行去重统计</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">反映一定时间内使用了LTE数据业务的用户的数量</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-U接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SUB.ActSubs</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">IMS网络PDN连接建立</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">IMS网络PDN连接建立成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">IMS网络PDN连接成功次数 /IMS网络PDN连接请求次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计IMS网络PDN连接建立成功率&#10;</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.PdnConnectivityComplete.Ims/SM.PdnConnectivityRequest.Ims</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE语音专用承载建立</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专用承载建立成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专用承载建立成功次数 /VoLTE语音专用承载建立请求次数 </Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE语音专用承载建立成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ActDedicatedEpsBearerAccept.QCI1/SM.ActDedicatedEpsBearerRequest.QCI1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE视频专用承载建立</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专用承载建立成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专用承载建立成功次数 /VoLTE视频专用承载建立请求次数 </Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE视频专用承载建立成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ActDedicatedEpsBearerAccept.QCI2/SM.ActDedicatedEpsBearerRequest.QCI2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标中暂无该指标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专用承载更新</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专用承载更新成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE语音专用承载更新成功次数 /VoLTE语音专用承载建立更新次数 </Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE语音专用承载更新成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ModEpsBearerAccept.QCI1/SM.ModEpsBearerRequest.QCI1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标中暂无该指标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专用承载更新</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专用承载更新成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">VoLTE视频专用承载更新成功次数 /VoLTE视频专用承载更新请求次数 </Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE视频专用承载更新成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">S1-MME接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">SM.ModEpsBearerAccept.QCI2/SM.ModEpsBearerRequest.QCI2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标中暂无该指标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权流程</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权成功次数/应用会话授权尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE应用会话授权成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizedSucc/Service.VOLTE.PccAuthorizedReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权更新流程</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权更新成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权更新成功次数/应用会话授权更新尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE应用会话授权更新成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeUpdatedSucc/Service.VOLTE.PccAuthorizeUpdatedReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话授权终止流程</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权终止成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话授权终止成功次数/应用会话授权终止尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE应用会话授权终止成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAuthorizeEndedSucc/Service.VOLTE.PccAuthorizeEndedReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话异常终止流程</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话异常终止成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话异常终止成功次数/应用会话异常终止尝试次数</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE应用会话异常终止成功率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Service.VOLTE.PccAbortedSucc/Service.VOLTE.PccAbortedReq</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VoLTE应用会话流程</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">应用会话呼损率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">小区</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">15分钟</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">1-(应用会话授权成功次数+应用会话授权更新成功次数)/( 应用会话授权尝试次数+应用会话授权更新尝试次数)</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">统计VoLTE应用会话呼损率</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Rx接口测量项</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">1-(Service.VOLTE.PccAuthorizedSucc+Service.VOLTE.PccAuthorizeUpdatedSucc)/(Service.VOLTE.PccAuthorizedReq+Service.VOLTE.PccAuthorizeUpdatedReq)</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">中国移动统一DPI设备技术规范-LTE信令采集解析服务器接口规范v2.0.9.docx&#10;EPC网络运行管理指标（V2.0.0）.xlsx</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>70</Zoom>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>10</TopRowBottomPane>
+   <SplitVertical>4</SplitVertical>
+   <LeftColumnRightPane>4</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="测量项_S1U">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=测量项_S1U!R1C1:R17C13"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:StyleID="s100" ss:AutoFitWidth="0" ss:Width="54.75"
+    ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="36.75"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="51" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="200.25"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="288.75"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="45.75"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="336"/>
+   <Column ss:StyleID="s99" ss:Width="354"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s101">
+    <Cell ss:StyleID="s102"><Data ss:Type="String">采样点</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">数据编码</Data><Comment
+      ss:Author="YH"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Size="9" html:Color="#000000">没有编码的即为相比北向指标规范来说新增的</Font><Font
+         html:Face="Tahoma" x:Family="Swiss" html:Size="9" html:Color="#000000">Counter</Font><Font
+         html:Size="9" html:Color="#000000">或指标</Font></B></ss:Data></Comment><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">流程</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">英文名称</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">中文名称</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">单位</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">网元粒度</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">时间粒度</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">指标定义</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">触发点</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">数据来源</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">算法</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">规范来源</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.TrafficUl</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">上行流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">所有业务XDR的上行流量之和</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.TrafficDl</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">下行流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">所有业务XDR的下行流量之和</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(下行流量)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.OnlineTimeUl</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">上行在线时长</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">有效传输数据的时间（上行）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(OnlineTimeUl) - 注：当前规范的XDR没有输出此字段</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">UP.OnlineTimeDl</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">下行在线时长</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">有效传输数据的时间（下行）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的所有XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(OnlineTimeDl) - 注：当前规范的XDR没有输出此字段</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SessionCount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">所有HTTP会话的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(1)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SessionRespCount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话响应次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到第一个Get的响应包，且返回码为200的次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(第一个响应包时延!=null &amp;&amp; 事物状态=200)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SessionSuccCount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话完成次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到最后一个Get的响应包，且返回码为200的次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(最后一个内容包时延!=null &amp;&amp; 事物状态=200)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.RespLatency</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话响应时长</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到第一个Get的响应包的时延</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Avg(第一个响应包时延)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP.SuccLatency</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话完成时长</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ms</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">HTTP会话中，收到最后一个Get的响应包的时延</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Avg(最后一个内容包时延)</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.Traffic</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信业务产生的总流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的即时通信XDR/HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用小类=微信</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.ActiveUsers</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信活跃用户数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">在统计时间内使用过微信业务的用户数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的即时通信XDR/HTTP XDR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(Distinct IMSI) When 应用小类=微信</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.HeartBeatCount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信心跳次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">次</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信心跳消息的次数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(应用小类=心跳) When 应用大类=微信细分业务</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.TextMsgCount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信文本消息数量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）文本消息的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(应用小类=文本消息) When 应用大类=微信细分业务</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.TextMsgTraffic</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信文本消息流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）文本消息的总流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用大类=微信细分业务 &amp;&amp; 应用小类=文本消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.VoiceMsgCount</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信语音消息数量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">个</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）语音消息的个数</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Count(应用小类=语音消息) When 应用大类=微信细分业务</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">WeiXin.VoiceMsgTraffic</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信语音消息流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Byte</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">小区</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">15分钟</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">微信（收/发）语音消息的总流量</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">S1-U接口的细分业务XDR（未定义）</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Sum(上行流量+下行流量) When 应用大类=微信细分业务 &amp;&amp; 应用小类=语音消息</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Visible>SheetHidden</Visible>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>4</SplitVertical>
+   <LeftColumnRightPane>4</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
